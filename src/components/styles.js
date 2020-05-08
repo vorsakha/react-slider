@@ -37,7 +37,6 @@ export const Arrow = styled.div`
 
     &:hover {
         color: #333;
-
     }
 
     @media screen and (max-width: 500px) {
@@ -85,26 +84,22 @@ export const Overlay = styled.div`
 `
 
 export const Wrapper = styled.div`
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
     display: flex;
     align-items: center;
     height: 100vh;
     justify-content: center;
     flex-direction: column;
     color: rgb(232,205,136);
-
-
     font-family: 'Jost', sans-serif;
 `
 
 export const Title = styled.h1`
         font-size: 4em;
+        margin: 0;
         text-align: center;
 
         @media screen and (max-height: 500px) {
             font-size: 2em;
-            margin: 0;
-
         }
 `
 
